@@ -1,0 +1,8 @@
+application: threedewmobile
+version: 1
+runtime: php
+api_version: 1
+
+handlers:
+- url: /.*
+  script: wwwroot/index.php
